@@ -1,0 +1,23 @@
+{$CLEO .cs}
+
+//Press M+Z to clear Weather
+//Optionally you can uncomment the time and weekday code
+//Script by HcH
+//-------------MAIN---------------
+
+0000:
+:0000
+wait 0 
+if and 
+0AB0:   key_pressed 77
+0AB0:   key_pressed 90
+jf @0000
+//then
+                        gosub @SetDayAndTime
+jump @0000
+
+:SetDayAndTime
+01B6: set_weather 1
+00C0: set_current_time_hours_to 12 minutes_to 0
+//07D0: $WEEKDAY = 1
+return 
