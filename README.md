@@ -7,4 +7,4 @@ for a nice driving experience.
 2. Run the game
 3. In game, press M+Z to clear the weather.
 
-                                     - Stephan 
+                                     - Aeneas of Troy 
